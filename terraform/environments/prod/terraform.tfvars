@@ -1,0 +1,11 @@
+aws_region = "us-west-2"
+key_pair_name = "coffeeshop-prod-key"
+cluster_version = "1.27"
+node_instance_types = ["t3.medium"]
+node_desired_capacity = 2
+node_max_capacity = 4
+node_min_capacity = 1
+db_instance_class = "db.t3.micro"
+db_allocated_storage = 20
+backup_retention_period = 7
+allowed_cidrs = ["0.0.0.0/0"]
